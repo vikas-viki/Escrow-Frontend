@@ -1,7 +1,7 @@
 import React from "react";
 import { tagType } from "../assets";
 import { loader } from "../assets";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 
 const DisplayListings = ({ title, isLoading, list }) => {
 

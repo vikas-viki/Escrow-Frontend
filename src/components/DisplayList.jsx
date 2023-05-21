@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import FundCard from "./FundCard";
 import { loader } from "../assets";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 
 const Displaylistings = ({ title, isLoading, listings }) => {
   const navigate = useNavigate();

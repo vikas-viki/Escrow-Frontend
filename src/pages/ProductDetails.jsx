@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 import { CountBox, CustomButton, Loader } from "../components";
 import { requester } from "../assets";
 

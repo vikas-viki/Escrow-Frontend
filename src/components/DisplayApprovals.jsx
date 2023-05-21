@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { tagType } from "../assets";
 import { loader } from "../assets";
 import { CustomButton } from ".";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 
 const DisplayApprovals = ({ title, isLoading, products }) => {
   const { approveListing, getTimeElapsed } = useStateContext();

@@ -1,5 +1,5 @@
 import React from "react";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 import { DisplayCampaigns } from "../components";
 
 const Home = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { useStateContext } from "../context/index.js";
+import { useStateContext } from "../context/index.jsx";
 import DisplayApprovals from "../components/DisplayApprovals.jsx";
 
 const Approve = () => {

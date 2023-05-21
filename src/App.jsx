@@ -11,7 +11,7 @@ import ListNewProduct from "./pages/ListNewProduct";
 import Cart from "./pages/Cart";
 import Howitworks from "./pages/Howitworks";
 
-const Hero = () => {
+const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -25,7 +25,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="home" element={<Layout />}>
@@ -38,8 +38,8 @@ const Hero = () => {
           <Route path="/home/How_it_works" element={<Howitworks />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
-export default Hero;
+export default App;

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { creator, tagType } from "../assets";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 
 const FundCard = ({
   0: amount,

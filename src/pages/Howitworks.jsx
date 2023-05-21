@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 
 const Howitworks = () => {
   const { setIsActive } = useStateContext();

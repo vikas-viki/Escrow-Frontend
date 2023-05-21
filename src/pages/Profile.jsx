@@ -1,6 +1,6 @@
 import React from "react";
 import DisplayListings from "../components/DisplayListings.jsx";
-import { useStateContext } from "../context/index.js";
+import { useStateContext } from "../context/index.jsx";
 
 const Listings = () => {
   const { isLoading, userListedProducts } = useStateContext();

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useStateContext } from "../context";
+import { useStateContext } from "../context/index.jsx";
 import { CustomButton } from "./";
 import { logo, menu, search, user } from "../assets";
 import { navlinks } from "../constants";
