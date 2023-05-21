@@ -1,8 +1,6 @@
-#  Escrow 3.0
+# <code><img width="40" src="https://web3-escrow.netlify.app/assets/logo-3321b4b6.png"></code> Escrow 3.0
 
-<code>
-<img width="30" src="https://web3-escrow.netlify.app/assets/logo-3321b4b6.png">
-</code>
+
 
 **`Escrow 3.o helps you to easily experience hassle-free transactions with web3 powered escrow platform.`**
 
